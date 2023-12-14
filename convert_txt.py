@@ -65,7 +65,7 @@ def process_folder(input_folder, output_folder):
             write_to_txt_file(output_file, yolo_format_lines)
 
 # Replace 'input_folder' and 'output_folder' with your actual input and output folder paths
-input_folder = '/Users/yn/Projects/Yolo/images_phone/labels/xml'
-output_folder = '/Users/yn/Projects/Yolo/images_phone/labels/train'
+input_folder = 'path/to/XML/folder'
+output_folder = 'path/to/txt/folder'
 
 process_folder(input_folder, output_folder)
